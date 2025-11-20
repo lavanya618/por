@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"
+        integrity="sha512-tQQXRDB2wEmuJGtFrmmoFYzNTq8StA1XJrfO0OQbbTxd9G0CwaTDL6/C1y805IlvBVrMwOqob1kf6r/2U5XXVg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="portfolio.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body> 
+    <header class="header">
+        <a href="#home" class="logo">Port<span>folio</span></a>
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+   
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, It's <span>Lavanya</span></h1>
+            <h3>I'm a <span class="typing-text"></span></h3>
+            <div class="social-icon">
+                <a href="#"><i class="fa-brands fa-instagram" id="insta"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook" id="face"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp" id="whats"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin" id="link"></i></a>
+            </div>
+            <div class="btn-group">
+                <a href="#" class="btn">Hire Me</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="asset/photo.jpg" alt="Lavanya" class="left-img">
+        </div>
+    </section> 
+    
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2>About <span>me</span></h2>
+            <p>Am a Python Developer and Web Developer. Motivated and details oriented Python web developer
+                with strong foundation in Django. Passionate about building scalable Web application and improving
+                user experience. Seeking an opportunity to apply my coding skills and problem-solving abilities in
+                a dynamic development.
+            </p>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+    </section>
+    
+    <section class="education" id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-container">
+            <div class="education-box">
+                <div class="education-info">
+                    <h4>2020</h4>
+                    <p>PERIYAR UNIVERSITY<br>SALEM</p>
+                </div>
+            </div>
+            <div class="education-box">
+                <div class="education-info">
+                    <h4>2017</h4>
+                    <p>GOVERNMENT ARTS COLLEGE AUTONOMOUS <br>SALEM</p>
+                </div>
+            </div>
+            <div class="education-box">
+                <div class="education-info">
+                    <h4>2014</h4>
+                    <p>HSC-GOVERNMENT HIGHER SECONDARY SCHOOL KANNANKURICH <br>SALEM</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="skills" id="skills">
+        <h2 class="heading">Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <div class="skill-name">HTML</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="90%" style="max-width: 90%;"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-name">CSS</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="70%" style="max-width: 70%;"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-name">Bootstrap</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="50%" style="max-width: 50%;"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-name">JavaScript</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="50%" style="max-width: 50%;"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-name">Python</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="70%" style="max-width: 70%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form class="contact-form">
+          <input type="text" class="form-input" placeholder="Name" required>
+          <input type="email" class="form-input" placeholder="Email" required>
+          <textarea class="form-input message" placeholder="Your message" required></textarea>
+          <button type="submit" class="btn contact-btn">Submit</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p class="footer-text">Created By Lavanya | <span> 2024 All rights reserved.</span></p>
+    </footer>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
